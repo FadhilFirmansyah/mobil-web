@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product DOL-CAR</title>
+    <link rel="stylesheet" href="css/style-product.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1><a href="Dashboard.html">Home</a></h1>
+        </nav>
+    </header>
+
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="img/Product-1.jpg">
+                <div class="content">
+                    <div class="title">Ford</div>
+                    <div class="topic">Mustang GT 2021</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                        Ford Mustang GT 2021 adalah kendaraan yang terkenal dengan performa bertenaga dan desain ikonik. Mobil ini dilengkapi dengan mesin 5.0 liter V8 naturally aspirated yang mampu menghasilkan tenaga sebesar 450 tenaga kuda pada 7.000 rpm dan torsi maksimal 410 lb-ft (556 Nm) pada 4.600 rpm. Mustang GT 2021 tersedia dengan pilihan transmisi manual 6-percepatan dan otomatis 10-percepatan, memungkinkan akselerasi dari 0 hingga 60 mph dalam sekitar 4 detik, tergantung pada konfigurasi dan kondisi.
+                    </div>
+                    <div class="buttons">
+                        <form action="PaymentFord.html">
+                            <button>BELI</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/Product-2.jpg">
+                <div class="content">
+                    <div class="title">Ferrari</div>
+                    <div class="topic">Enzo</div>
+                    <div class="des">
+                        Ferrari Enzo adalah supercar ikonik yang dilengkapi dengan mesin 6.0 liter V12 yang mampu menghasilkan tenaga sebesar 660 tenaga kuda dan torsi maksimal 657 Nm. Mobil ini mampu berakselerasi dari 0 hingga 60 mph dalam waktu sekitar 3,3 detik, dengan kecepatan maksimal mencapai 218 mph (351 km/h). Desain aerodinamisnya yang futuristik terinspirasi dari teknologi Formula 1, lengkap dengan sasis monokok serat karbon dan sistem pengereman karbon-keramik.
+                    </div>
+                    <div class="buttons">
+                        <form action="PaymentFerrari.html">
+                            <button>BELI</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/Product-3.jpg">
+                <div class="content">
+                    <div class="title">Pininfarina</div>
+                    <div class="topic">Battista</div>
+                    <div class="des">
+                        Pininfarina Battista adalah hypercar listrik dengan empat motor listrik yang menghasilkan tenaga sebesar 1.900 hp dan torsi mencapai 2.300 Nm. Mobil ini mampu berakselerasi dari 0 hingga 60 mph dalam waktu kurang dari 2 detik dan mencapai kecepatan maksimal 217 mph (350 km/h). Dengan baterai berkapasitas 120 kWh, Battista memiliki jarak tempuh hingga 280 mil (450 km) berdasarkan standar WLTP. Pengisian daya cepat memungkinkan baterai terisi hingga 80% dalam waktu 25 menit. 
+                    </div>
+                    <div class="buttons">
+                        <form action="PaymentPininfarina.html">
+                            <button>BELI</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/Product-4.jpg">
+                <div class="content">
+                    <div class="title">McLaren</div>
+                    <div class="topic">720S GT3 EVO</div>
+                    <div class="des">
+                        McLaren 720S GT3 EVO adalah versi terbaru dari mobil balap McLaren yang dirancang khusus untuk kompetisi GT3. Kendaraan ini dilengkapi dengan mesin V8 4.0 liter twin-turbocharged yang menghasilkan tenaga besar dan torsi tinggi untuk performa optimal di lintasan balap. Transmisi yang digunakan adalah gearbox enam percepatan yang telah disempurnakan untuk perpindahan gigi yang lebih cepat dan responsif.
+                    </div>
+                    <div class="buttons">
+                        <form action="PaymentMclaren.html">
+                            <button>BELI</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="img/Product-1.jpg">
+                <div class="content">
+                    <div class="title">
+                        Ford
+                    </div>
+                    <div class="description">
+                        Rp 2.500.000.000
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/Product-2.jpg">
+                <div class="content">
+                    <div class="title">
+                        Ferrari
+                    </div>
+                    <div class="description">
+                        Rp 10.575.500.000
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/Product-3.jpg">
+                <div class="content">
+                    <div class="title">
+                        Pininfarina
+                    </div>
+                    <div class="description">
+                        Rp 32.500.000.000
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/Product-4.jpg">
+                <div class="content">
+                    <div class="title">
+                        McLaren
+                    </div>
+                    <div class="description">
+                        Rp 9.176.280.000
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next prev -->
+
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+    <div class="cursor">
+        <div class="cursor__inner cursor__inner--circle"></div>
+        <div class="cursor__inner cursor__inner--dot"></div>
+    </div>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/charming.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/demo.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

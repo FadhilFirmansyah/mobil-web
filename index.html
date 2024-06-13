@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login DOL-CAR</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form action="Dashboard.html">
+                <h1>Sign Up</h1>
+                <span>Masukan Nama, Email dan Password Anda</span>
+                <input type="text" placeholder="Nama">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form id="login-form" action="Dashboard.html">
+                <h1>Sign In</h1>
+                <span>Masukan Username dan Password Anda</span>
+                <input type="email" placeholder="Email" id="email">
+                <input type="password" placeholder="Password" id="password">
+                <p style="display: none; color: red; margin-bottom: -2%;" id="error-message">Email atau password salah</p>
+                <a href="password.html" id="forgot-password-link">Lupa Password?</a>
+                <button type="button" id="sign-in-button">Sign In</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                  <h1>DOL-CAR</h1>
+                  <p>Destinasi terbaik Anda untuk menemukan mobil impian. Kami menawarkan beragam pilihan mobil berkualitas </p>
+                  <p>Sudah memiliki akun?</p>
+                    <button class="hidden" id="login" style="margin-top: -2%;">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>DOL-CAR</h1>
+                    <p>Destinasi terbaik Anda untuk menemukan mobil impian. Kami menawarkan beragam pilihan mobil berkualitas </p>
+                    <p>Belum memiliki akun?</p>
+                    <button class="hidden" id="register" style="margin-top: -2%;">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
